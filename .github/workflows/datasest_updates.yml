@@ -45,7 +45,7 @@ jobs:
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
-          repository: stevenliuyi/covid19
+          repository: ronxplore/covid19
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: master
       - name: Build site
